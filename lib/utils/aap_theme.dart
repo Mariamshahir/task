@@ -6,4 +6,13 @@ abstract class AppTheme {
       fontWeight: FontWeight.w500,
       fontFamily: "Montserrat",
       color: Colors.black);
+  static const TextStyle textCart2 = TextStyle(
+      fontWeight: FontWeight.w500,
+      fontFamily: "Poppins",
+      color: Colors.white);
+  static const TextStyle title = TextStyle(
+      fontWeight: FontWeight.w600,
+      fontFamily: "Poppins",
+      color: Colors.white);
+
 }
