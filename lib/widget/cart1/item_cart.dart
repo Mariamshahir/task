@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:work/utils/app_assets.dart';
-import 'package:work/widget/left_cart.dart';
-import 'package:work/widget/right_cart.dart';
+import 'package:work/widget/cart1/left_cart.dart';
+import 'package:work/widget/cart1/right_cart.dart';
 
 class ItemCart extends StatelessWidget {
   const ItemCart({super.key});
@@ -16,8 +17,8 @@ class ItemCart extends StatelessWidget {
           const LeftCart(),
           Image(
             image: const AssetImage(AppAssets.statue),
-            width: MediaQuery.of(context).size.width * 0.25,
-            height: MediaQuery.of(context).size.height * 0.52,
+            width:100.w,
+            height: 250.h,
           ),
           const RightCart(),
         ],

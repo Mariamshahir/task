@@ -16,9 +16,9 @@ class RightCart extends StatelessWidget {
         ),
         Text(
           "Natus dolores nobis ipsum et "
-          "\nmollitia expedita eveniet velit. "
-          "\nquatur facere est mollitia. Ea dolore "
-          "\ntempore  id doloremque sapiente s ",
+              "\nmollitia expedita eveniet velit. "
+              "\nquatur facere est mollitia. Ea dolore "
+              "\ntempore  id doloremque sapiente s ",
           textAlign: TextAlign.right,
           style: AppTheme.text.copyWith(
             color: Colors.white,
@@ -29,8 +29,8 @@ class RightCart extends StatelessWidget {
           height: MediaQuery.of(context).size.height * 0.03,
         ),
         Container(
-          width: MediaQuery.of(context).size.width * 0.1,
-          height: MediaQuery.of(context).size.height * 0.05,
+          width: 50.w,
+          height: 45.h,
           decoration: BoxDecoration(
               color: AppColors.buttonBackground,
               borderRadius: const BorderRadius.all(Radius.circular(20)),

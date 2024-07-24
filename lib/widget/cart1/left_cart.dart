@@ -20,11 +20,11 @@ class LeftCart extends StatelessWidget {
         const Spacer(),
         Text(
           "Natus dolores nobis ipsum et "
-          "\nmollitia expedita eveniet velit. "
-          "\nConsequatur facere est mollitia. Ea "
-          "\ndolore tempore  id doloremque "
-          "\nsapiente assumenda Natus dolores "
-          "\nnobis ipsum est mollitia. Ea ",
+              "\nmollitia expedita eveniet velit. "
+              "\nConsequatur facere est mollitia. Ea "
+              "\ndolore tempore  id doloremque "
+              "\nsapiente assumenda Natus dolores "
+              "\nnobis ipsum est mollitia. Ea ",
           textAlign: TextAlign.left,
           style: AppTheme.text.copyWith(
             color: Colors.white,
