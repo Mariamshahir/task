@@ -41,7 +41,7 @@ class _ItemCart6State extends State<ItemCart6> {
           }).toList(),
           options: CarouselOptions(
             scrollDirection: Axis.horizontal,
-            height: MediaQuery.of(context).size.height*0.39,
+            height: MediaQuery.of(context).size.height * 0.39,
             enlargeCenterPage: true,
             autoPlay: true,
             enableInfiniteScroll: true,
