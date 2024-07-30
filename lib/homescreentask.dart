@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:work/utils/aap_theme.dart';
 import 'package:work/utils/app_assets.dart';
 import 'package:work/utils/app_colors.dart';
 import 'package:work/widget/cart1/item_cart.dart';
@@ -7,6 +8,7 @@ import 'package:work/widget/cart2/item_cart2.dart';
 import 'package:work/widget/cart3/item_cart3.dart';
 import 'package:work/widget/cart4/item_cart4.dart';
 import 'package:work/widget/cart5/item_cart5.dart';
+import 'package:work/widget/cart6/item_cart6.dart';
 
 class HomeScreen extends StatelessWidget {
   static const String routeName = "homeScreen";
@@ -107,6 +109,21 @@ class HomeScreen extends StatelessWidget {
                   borderRadius: BorderRadius.all(Radius.circular(30.r)),
                 ),
                 child: const ItemCart5(),
+              ),
+              SizedBox(
+                height: 0.25.sh,
+              ),
+              Container(
+                height: 0.64.sh,
+                width: 0.9.sw,
+                decoration: BoxDecoration(
+                  image: const DecorationImage(
+                    image: AssetImage(AppAssets.backgroundCart6),
+                    fit: BoxFit.cover,
+                  ),
+                  borderRadius: BorderRadius.all(Radius.circular(30.r)),
+                ),
+                child: const ItemCart6(),
               ),
             ],
           ),
