@@ -15,4 +15,11 @@ abstract class AppAssets {
   static const String backgroundCart5 = "assets/images/background_cart5.png";
   static const String iconCart2 = "assets/images/icon2.png";
   static const String iconCart3 = "assets/images/icon3.png";
+  static const String frame = "assets/images/frame.png";
+  static const String backgroundCart6 = "assets/images/background_cart6.png";
+  static const String photo1 = "assets/images/photo1.png";
+  static const String photo2 = "assets/images/photo2.png";
+  static const String photo3 = "assets/images/photo3.png";
+  static const String photo4 = "assets/images/photo4.png";
+  static const String photo5 = "assets/images/photo5.png";
 }
