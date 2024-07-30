@@ -22,11 +22,7 @@ class DetailsItemCart6 extends StatelessWidget {
           child: Stack(
             alignment: Alignment.center,
             children: [
-              Image(
-                image: AssetImage(image),
-                fit: BoxFit.cover,
-                alignment: Alignment.center,
-              ),
+              Image( image: AssetImage(image), fit: BoxFit.cover, alignment: Alignment.center, ),
               Image(
                 image: const AssetImage(AppAssets.frame),
                 height: MediaQuery.of(context).size.height * 0.26,
